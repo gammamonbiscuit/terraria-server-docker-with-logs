@@ -1,0 +1,1 @@
+Just a little "mod" that is built on top of [hexlo's image](https://github.com/hexlo/terraria-server-docker/), so that it can output its log to `${TERRARIA_DIR}/Logs/server.log`. This is more or less a proof of concept and should not be use in production, DO NOT MOUNT THE `Logs` DIRECTORY FROM MULTIPLE CONTAINERS TOGETHER, THIS SCRIPT DOES NOT HANDLE THAT.
