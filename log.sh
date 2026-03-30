@@ -1,7 +1,8 @@
 #!/bin/bash
+mkdir -p ${TERRARIA_DIR}/Logs
 cd ${TERRARIA_DIR}/Logs
-rm Log_*.log
-until compgen -G "${TERRARIA_DIR}/Logs/Log_*.log" > /dev/null; do
+rm -fv Log_*.log
+until compgen -G "Log_*.log" > /dev/null; do
     sleep 1
     echo "Waiting for log file"
 done
