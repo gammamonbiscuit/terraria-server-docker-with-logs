@@ -11,7 +11,9 @@ The built image is a drop-in replacement, so just use the instructions from [hex
 
 # Things added in this mod
 **Environment variable `$log`**
+
 Set it to `true` or `1` to enable logging to file.
 
 **Container directory `/root/.local/share/Terraria/Logs`**
+
 You can mount this from multiple containers together like the `Worlds` directory, as long as all the worlds have different names.
